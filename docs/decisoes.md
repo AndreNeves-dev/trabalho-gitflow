@@ -35,3 +35,9 @@ Ordem dos merges: primeiro `feature/incremento-rename` (sem conflito), depois `f
 - **Alternativas:** manter um dos dois ou juntar os dois textos.
 - **Decisão:** manter "Mini App – GitFlow – Equipe B". O texto "Modo Escuro" já aparece de forma dinâmica pelo `app.js` quando o tema escuro é ativado, então fixá-lo no HTML ficaria errado no tema claro.
 - **Quem resolveu:** Aluno A – outubro/2026.
+
+## Hotfix da Fase 5 (hotfix/titulo-claro)
+- **Problema:** ao ativar o tema escuro e voltar para o claro, o título passava a mostrar "Mini App – GitFlow", perdendo o "Equipe B" definido no HTML.
+- **Causa:** o texto do tema claro no `toggleTheme` (app.js) não foi atualizado quando o título do HTML mudou na Fase 3.
+- **Decisão:** corrigir o texto do tema claro no `app.js` para "Mini App – GitFlow – Equipe B", em uma branch `hotfix/titulo-claro` criada a partir de `main`, publicada como v1.0.1 e sincronizada com `develop`.
+- **Quem resolveu:** Aluno B – outubro/2026.

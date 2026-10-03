@@ -1,5 +1,8 @@
 # Release Notes
 
+## v1.0.1 (hotfix)
+- Corrige o título ao voltar para o modo claro: ele passava a mostrar "Mini App – GitFlow", sem "Equipe B".
+
 ## v1.0.0
 - Contador com incremento de 2 em 2 (botão "+") e decremento de 1 (botão "–").
 - Função de contagem renomeada de `setCount` para `updateCount`.
