@@ -1,4 +1,4 @@
-# Mini App – GitFlow (Equipe XX)
+# Mini App – GitFlow (Equipe André Neves)
 
 Aplicação simples em **HTML/CSS/JS** usada para praticar **Git, GitHub e GitFlow** sem Pull Requests.
 Fluxo proposto: `main`, `develop`, `feature/*`, `release/*`, `hotfix/*`.
@@ -18,4 +18,6 @@ Basta abrir `index.html` no navegador.
 - `docs/release-notes.md`
 
 ## Créditos
-- Aluno A (owner), Aluno B, Aluno C.
+- Aluno A (owner), Aluno B e Aluno C: André Neves.
+
+O trabalho foi feito individualmente. Os três papéis foram simulados com identidades locais do Git (`git config user.name "Aluno A"`, `"Aluno B"` e `"Aluno C"`), por isso os commits aparecem com autores diferentes no histórico.
