@@ -28,6 +28,6 @@ elToggleTheme.addEventListener("click", () => {
   document.documentElement.style.setProperty("--card", state.dark ? "#111827" : "#ffffff");
   document.documentElement.style.setProperty("--border", state.dark ? "#1f2937" : "#e5e7eb");
   elToggleTheme.textContent = state.dark ? "Voltar ao tema claro" : "Alternar tema";
-  elTitle.textContent = state.dark ? "Mini App – Modo Escuro" : "Mini App – GitFlow";
+  elTitle.textContent = state.dark ? "Mini App – Modo Escuro" : "Mini App – GitFlow – Equipe B";
   elToggleTheme.setAttribute("aria-pressed", String(state.dark));
 });
